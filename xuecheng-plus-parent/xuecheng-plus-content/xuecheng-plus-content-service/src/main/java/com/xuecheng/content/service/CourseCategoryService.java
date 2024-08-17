@@ -2,6 +2,9 @@ package com.xuecheng.content.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.xuecheng.content.domain.CourseCategory;
+import com.xuecheng.content.model.CourseCategoryTreeDto;
+
+import java.util.List;
 
 
 /**
@@ -12,4 +15,5 @@ import com.xuecheng.content.domain.CourseCategory;
 public interface CourseCategoryService extends IService<CourseCategory> {
 
 
+    List<CourseCategoryTreeDto> queryTreeNodes(String id);
 }

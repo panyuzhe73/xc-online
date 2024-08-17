@@ -2,7 +2,11 @@ package com.xuecheng.content.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.xuecheng.content.domain.CourseCategory;
+import com.xuecheng.content.model.CourseCategoryTreeDto;
 import org.apache.ibatis.annotations.Mapper;
+import org.hibernate.validator.constraints.NotEmpty;
+
+import java.util.List;
 
 /**
 * @author TNCN
@@ -12,6 +16,7 @@ import org.apache.ibatis.annotations.Mapper;
 */
 @Mapper
 public interface CourseCategoryMapper extends BaseMapper<CourseCategory> {
+     List<CourseCategoryTreeDto> selectTreeNodes( String id);
 
 }
 
