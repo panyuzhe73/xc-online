@@ -3,6 +3,12 @@ package com.xuecheng.content.domain;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
+import com.xuecheng.content.model.EditCourseDto;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import javax.validation.constraints.NotEmpty;
 import java.io.Serializable;
 
 /**
@@ -10,6 +16,9 @@ import java.io.Serializable;
  * @TableName course_market
  */
 @TableName(value ="course_market")
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class CourseMarket implements Serializable {
     /**
      * 主键，课程id

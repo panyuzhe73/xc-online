@@ -1,10 +1,5 @@
 package com.xuecheng.content.service.impl;
 
-import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-
-import com.xuecheng.content.service.CoursePublishService;
-import org.springframework.stereotype.Service;
-
 /**
 * @author TNCN
 * @description 针对表【course_publish(课程发布)】的数据库操作Service实现

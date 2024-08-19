@@ -4,7 +4,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.xuecheng.content.domain.CourseCategory;
 import com.xuecheng.content.model.CourseCategoryTreeDto;
 import org.apache.ibatis.annotations.Mapper;
-import org.hibernate.validator.constraints.NotEmpty;
 
 import java.util.List;
 
