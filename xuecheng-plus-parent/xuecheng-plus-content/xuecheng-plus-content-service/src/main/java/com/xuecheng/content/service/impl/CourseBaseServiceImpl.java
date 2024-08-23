@@ -6,12 +6,8 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.xuecheng.base.exception.XueChengPlusException;
 import com.xuecheng.base.model.PageParams;
 import com.xuecheng.base.model.PageResult;
-import com.xuecheng.content.domain.CourseCategory;
-import com.xuecheng.content.domain.CourseMarket;
-import com.xuecheng.content.mapper.CourseBaseMapper;
-import com.xuecheng.content.domain.CourseBase;
-import com.xuecheng.content.mapper.CourseCategoryMapper;
-import com.xuecheng.content.mapper.CourseMarketMapper;
+import com.xuecheng.content.domain.*;
+import com.xuecheng.content.mapper.*;
 import com.xuecheng.content.model.AddCourseDto;
 import com.xuecheng.content.model.CourseBaseInfoDto;
 import com.xuecheng.content.model.EditCourseDto;
@@ -41,6 +37,15 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
 
     @Autowired
     private CourseCategoryMapper courseCategoryMapper;
+
+    @Autowired
+    private TeachplanMediaMapper teachplanMediaMapper;
+
+    @Autowired
+    private TeachplanMapper teachplanMapper;
+
+    @Autowired
+    private CourseTeacherMapper courseTeacherMapper;;
 
     @Override
     public PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto) {
@@ -177,6 +182,18 @@ public class CourseBaseServiceImpl extends ServiceImpl<CourseBaseMapper, CourseB
         //查询课程信息返回
         CourseBaseInfoDto courseBaseInfo = this.getCourseBaseInfo(dto.getId());
         return courseBaseInfo;
+    }
+
+    @Override
+    public void deleteCourseBase(Long id) {
+        if(courseBaseMapper.selectById(id).getAuditStatus() == "202002"){
+            XueChengPlusException.cast("课程的审核状态一提交不能删除");
+        }
+
+        courseBaseMapper.delete(new LambdaQueryWrapper<CourseBase>().eq(CourseBase::getId,id));
+        teachplanMediaMapper.delete(new LambdaQueryWrapper<TeachplanMedia>().eq(TeachplanMedia::getCourseId,id));
+        teachplanMapper.delete(new LambdaQueryWrapper<Teachplan>().eq(Teachplan::getCourseId,id));
+        courseTeacherMapper.delete(new LambdaQueryWrapper<CourseTeacher>().eq(CourseTeacher::getCourseId,id));
     }
 }
 

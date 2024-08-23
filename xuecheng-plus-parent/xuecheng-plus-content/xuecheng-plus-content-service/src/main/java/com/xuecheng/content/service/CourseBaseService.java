@@ -16,6 +16,12 @@ import com.xuecheng.content.model.QueryCourseParamsDto;
 */
 public interface CourseBaseService extends IService<CourseBase> {
 
+    /***
+     * 课程查询接口
+     * @param pageParams
+     * @param queryCourseParamsDto
+     * @return
+     */
     PageResult<CourseBase> queryCourseBaseList(PageParams pageParams, QueryCourseParamsDto queryCourseParamsDto);
 
     /***
@@ -44,5 +50,11 @@ public interface CourseBaseService extends IService<CourseBase> {
      * @date 2022/9/8 21:04
      */
     CourseBaseInfoDto updateCourseBase(Long companyId,EditCourseDto dto);
+
+    /***
+     * 删除课程信息
+     * @param id
+     */
+    void deleteCourseBase(Long id);
 
 }

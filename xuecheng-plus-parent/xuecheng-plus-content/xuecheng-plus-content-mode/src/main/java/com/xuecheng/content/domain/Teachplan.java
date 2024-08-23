@@ -128,7 +128,7 @@ public class Teachplan implements Serializable {
     /**
      * 课程计划父级Id
      */
-    public Long getParentid() {
+    public  Long getParentid() {
         return parentid;
     }
 
@@ -400,4 +400,7 @@ public class Teachplan implements Serializable {
         sb.append("]");
         return sb.toString();
     }
+
+
+
 }
