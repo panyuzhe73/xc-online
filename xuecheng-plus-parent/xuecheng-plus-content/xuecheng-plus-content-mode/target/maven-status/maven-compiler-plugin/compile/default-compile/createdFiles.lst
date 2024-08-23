@@ -1,0 +1,10 @@
+com\xuecheng\content\domain\CourseTeacher.class
+com\xuecheng\content\domain\CourseCategory.class
+com\xuecheng\content\domain\CoursePublish.class
+com\xuecheng\content\model\QueryCourseParamsDto.class
+com\xuecheng\content\domain\CourseBase.class
+com\xuecheng\content\domain\Teachplan.class
+com\xuecheng\content\domain\CourseMarket.class
+com\xuecheng\content\domain\CoursePublishPre.class
+com\xuecheng\Main.class
+com\xuecheng\content\domain\TeachplanMedia.class
