@@ -8,7 +8,7 @@
 11:23:45:077  WARN 24880 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\learn\xc-online\xuecheng-plus-parent\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseCategoryMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing Mapper XML. The XML location is 'file [E:\learn\xc-online\xuecheng-plus-parent\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseCategoryMapper.xml]'. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'generator.domain.CourseCategory'.  Cause: java.lang.ClassNotFoundException: Cannot find class: generator.domain.CourseCategory
 11:23:45:077  INFO 24880 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
 11:23:45:079  INFO 24880 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
-11:23:45:083  INFO 24880 --- [main] ConditionEvaluationReportLoggingListener : 
+11:23:45:083  INFO 24880 --- [main] ConditionEvaluationReportLoggingListener :
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 11:23:45:104 ERROR 24880 --- [main] o.s.b.SpringApplication                  : Application run failed
@@ -221,7 +221,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: generator.domain
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.27.jar:5.3.27]
 	... 89 more
 
-11:23:45:112 ERROR 24880 --- [main] o.s.t.c.TestContextManager               : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@63e5b8aa] to prepare test instance [com.xuecheng.content.CourseBaseMapperTests@2c9306d3]
+11:23:45:112 ERROR 24880 --- [main] o.s.t.c.TestContextManager               : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@63e5b8aa] to prepare test instance [com.xuecheng.base.CourseBaseMapperTests@2c9306d3]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.27.jar:5.3.27]
@@ -554,7 +554,7 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: generator.domain
 11:25:08:891  WARN 39420 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/baomidou/mybatisplus/autoconfigure/MybatisPlusAutoConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is org.springframework.core.NestedIOException: Failed to parse mapping resource: 'file [E:\learn\xc-online\xuecheng-plus-parent\xuecheng-plus-content\xuecheng-plus-content-service\target\classes\mapper\CourseCategoryMapper.xml]'; nested exception is org.apache.ibatis.builder.BuilderException: Error creating document instance.  Cause: org.xml.sax.SAXParseException; lineNumber: 23; columnNumber: 1; 文件提前结束。
 11:25:08:891  INFO 39420 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-1} closing ...
 11:25:08:893  INFO 39420 --- [main] c.a.d.p.DruidDataSource                  : {dataSource-1} closed
-11:25:08:902  INFO 39420 --- [main] ConditionEvaluationReportLoggingListener : 
+11:25:08:902  INFO 39420 --- [main] ConditionEvaluationReportLoggingListener :
 
 Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
 11:25:08:933 ERROR 39420 --- [main] o.s.b.SpringApplication                  : Application run failed
@@ -725,7 +725,7 @@ Caused by: org.xml.sax.SAXParseException: 文件提前结束。
 	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:653) ~[spring-beans-5.3.27.jar:5.3.27]
 	... 89 more
 
-11:25:08:938 ERROR 39420 --- [main] o.s.t.c.TestContextManager               : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@5785e813] to prepare test instance [com.xuecheng.content.CourseBaseMapperTests@10b8b900]
+11:25:08:938 ERROR 39420 --- [main] o.s.t.c.TestContextManager               : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@5785e813] to prepare test instance [com.xuecheng.base.CourseBaseMapperTests@10b8b900]
 
 java.lang.IllegalStateException: Failed to load ApplicationContext
 	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:98) ~[spring-test-5.3.27.jar:5.3.27]

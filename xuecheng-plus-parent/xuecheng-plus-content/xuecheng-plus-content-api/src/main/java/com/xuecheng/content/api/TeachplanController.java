@@ -3,6 +3,7 @@ package com.xuecheng.content.api;
 import com.xuecheng.content.model.SaveTeachplanDto;
 import com.xuecheng.content.model.TeachplanDto;
 import com.xuecheng.content.service.TeachplanService;
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;
@@ -11,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.annotation.Resource;
 import java.util.List;
 
+@Api(value = "课程计划编辑接口",tags = "课程计划编辑接口")
 @RestController
 @Slf4j
 public class TeachplanController {
