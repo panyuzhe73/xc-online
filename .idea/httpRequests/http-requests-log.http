@@ -1,3 +1,170 @@
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T085619.200.txt
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T085508.200.txt
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T085345.200.txt
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T085246.200.txt
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T084527.500.json
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T084216.500.json
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T084151.500.json
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T083912.500.json
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T083740.500.json
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T080611.404.json
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T080526.404.json
+
+###
+
+GET http://localhost:63050/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T080511.404.html
+
+###
+
+GET http://localhost:63050/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-26T080502.404.html
+
+###
+
+GET http://localhost:63050/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-24T173521.404.html
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-24T173510.404.json
+
+###
+
+GET http://localhost:63050/media/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-24T173347.404.json
+
+###
+
+GET http://localhost:63050/upload
+Connection: Keep-Alive
+User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
+Accept-Encoding: br,deflate,gzip,x-gzip
+
+<> 2024-08-24T173045.404.html
+
+###
+
 POST http://localhost:63050/media/files?pageNo=1&pageSize=2
 Content-Type: application/json
 Content-Length: 59
@@ -444,429 +611,6 @@ User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
 Accept-Encoding: br,deflate,gzip,x-gzip
 
 <> 2024-08-21T154927.500.json
-
-###
-
-GET http://localhost:63040/content/teachplan/74/tree-nodes
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-08-21T154828.500.json
-
-###
-
-GET http://localhost:63040/content/teachplan/74/tree-nodes
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-08-21T154646.500.json
-
-###
-
-GET http://localhost:63040/content/teachplan/74/tree-nodes
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-08-21T154500.500.json
-
-###
-
-GET http://localhost:63040/content/teachplan/74/tree-nodes
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-08-21T154319.500.json
-
-###
-
-GET http://localhost:63040/content/course/40
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-08-19T145812.200.json
-
-###
-
-GET http://localhost:63040/content/course/40
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-08-19T145248.404.json
-
-###
-
-GET http://localhost:63040/content/course/40
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-<> 2024-08-19T145208.404.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 310
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T142826.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 310
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T142825.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 310
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T142328.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 322
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T141857.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 322
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T141815.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 322
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T141814.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 322
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T141614.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 322
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T111410.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 322
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T110135.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 322
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T105621.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 322
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T105619.500.json
-
-###
-
-POST http://localhost:63040/content/course
-Content-Type: application/json
-Content-Length: 322
-Connection: Keep-Alive
-User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.9)
-Accept-Encoding: br,deflate,gzip,x-gzip
-
-{
-  "charge": "201000",
-  "price": 10,
-  "originalPrice":10,
-  "qq": "22333",
-  "wechat": "223344",
-  "phone": "13333333",
-  "validDays": 365,
-  "mt": "1-1",
-  "st": "1-1-1",
-  "name": "",
-  "pic": "qqqq",
-  "teachmode": "200002",
-  "users": "初级人员",
-  "tags": "qqqq",
-  "grade": "204001",
-  "description": "qqqq"
-}
-
-<> 2024-08-19T105537.500.json
 
 ###
 
