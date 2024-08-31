@@ -36,3 +36,7 @@ swagger:
   base-package: com.xuecheng
   enabled: true
   version: 1.0.0
+server:
+  tomcat:
+    basedir: /tmp/tomcat
+

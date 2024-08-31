@@ -6,7 +6,7 @@ spring:
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://47.96.10.151:3306/xc-content?serverTimezone=UTC&userUnicode=true&useSSL=false
     username: root
-    password: 123
+    password: panyuzhe.0
   cloud:
     nacos:
       server-addr: 47.96.10.151:8848
