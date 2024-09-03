@@ -86,7 +86,6 @@ public class MediaFileServiceImpl implements MediaFileService {
     @Override
 
     public UploadFileResultDto uploadFile(Long companyId, UploadFileParamsDto uploadFileParamsDto, String localFilePath) {
-        //将文件上传到minio
         File file = new File(localFilePath);
         if (!file.exists()) {
             XueChengPlusException.cast("文件不存在");
@@ -105,7 +104,7 @@ public class MediaFileServiceImpl implements MediaFileService {
         //存储到minio中的对象名(带目录)
         String  objectName = defaultFolderPath + fileMd5 + exension;
 
-//        上传文件
+        //上传文件
         boolean b = addMediaFilesToMinIO(bucket_Files, fileMd5, localFilePath, mimeType);
         if (!b){
             XueChengPlusException.cast("文件上传失败");
@@ -151,7 +150,6 @@ public class MediaFileServiceImpl implements MediaFileService {
             mediaFiles.setStatus("1");
             //保存文件信息到文件表
             int insert = mediaFilesMapper.insert(mediaFiles);
-            int i = 1/0;
             if (insert < 0) {
                 log.error("保存文件信息到数据库失败,{}",mediaFiles.toString());
                 XueChengPlusException.cast("保存文件信息失败");

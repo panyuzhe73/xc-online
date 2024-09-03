@@ -52,9 +52,6 @@ public class MediaFilesController {
      uploadFileParamsDto.setFileType("001001");
      //文件名称
      uploadFileParamsDto.setFilename(filedata.getOriginalFilename());//文件名称
-     //文件大小
-     long fileSize = filedata.getSize();
-     uploadFileParamsDto.setFileSize(fileSize);
      //创建临时文件
      File tempFile = File.createTempFile("minio", "temp");
      //上传的文件拷贝到临时文件
